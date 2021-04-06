@@ -18,4 +18,5 @@ func main() {
 	fmt.Println("String Comparisation")
 	var s string = "hello"
 	fmt.Printf("%t\n", "Hello" == s)
+	fmt.Printf("%t\t,%t\t,%t\t,%t", 'B' < 'a', 'B' <= 'C', 'G' > 'L', 'Z' >= 'Y')
 }
