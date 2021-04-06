@@ -16,3 +16,12 @@ func main() {
 	fmt.Println()
 	fmt.Printf("%T", number)
 }
+
+/*
+num =  0
+boolen = false
+number = 88
+float64
+bool
+int
+*/
