@@ -21,8 +21,10 @@ func add2(x, y int) (int, int) {
 }
 
 func add3(x, y int) (x3, x4 int) { // can also use (x3 int, x4 int)
+	defer fmt.Println("The end")
 	x3 = x * y
 	x4 = x % y
+	fmt.Println("Before defer")
 	return x3, x4
 }
 
@@ -35,5 +37,4 @@ func main() {
 	fmt.Println(ans1, ans2)
 	ans3, ans4 := add3(7, 9)
 	fmt.Println(ans3, ans4)
-
 }
