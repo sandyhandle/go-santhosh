@@ -24,6 +24,10 @@ func (s Student) getaveragemarks() int {
 	}
 	return sum / 5
 }
+
+// have any doubts please visit the below
+// https://youtu.be/5b8MMXgBnp0
+
 func main() {
 	var student Student = Student{"Santhosh", [5]int{7, 7, 7, 7, 7}, 18}
 	fmt.Println(student)
